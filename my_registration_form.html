@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Registration Form</title>
+  </head>
+  
+  <body>
+    <h1>My Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="first_name">First Name:</label></td>
+                <td><input type="text" id="first_name" name="first_name"></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name:</label></td>
+                <td><input type="text" id="last_namecopy" name="last_name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">PW Confirm</label></td>
+                <td><input type="password" id="confirm_password" name="confirm_password"></td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">Birthday</label></td>
+                <td><input type="date" id="birthdate" name="birthdate"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="description">A short description about yourself:</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea id="description" name="description" rows="10" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="language">Favorite Language</label>
+                </td>
+                <td>
+                    <select id="language" name="language">
+                        <option value="javascript">Javascript</option>
+                        <option value="python">Python</option>
+                        <option value="cplus">C++</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>     
+    </form>
+  </body>
+
+</html>
